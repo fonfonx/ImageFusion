@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+FIND_PACKAGE(OpenCV REQUIRED)
+
+PROJECT(PROJET)
+
+ADD_EXECUTABLE(application2 application2.cpp ../maxflow/graph.cpp)
+TARGET_LINK_LIBRARIES(application2 ${OpenCV_LIBS})
