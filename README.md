@@ -1,2 +1,2 @@
 # ImageFusion
-Code de mon projet d'INF552: fusion d'images sans que l'on voit les coutures
+This is the source code of the project I did during the course INF552 (Computer Vision) at Ecole polytechnique. This merges two images in a seamless way.
